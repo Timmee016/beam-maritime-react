@@ -1,0 +1,97 @@
+export default function About() {
+  return (
+    <main>
+      
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+<a class="navbar-brand logo-container" href="#">
+<img src="BEAM_MARITIME_Logo.png" alt="Beam Maritime Logo" />
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About Our Company</a></li>
+
+<!-- Dropdown for Services -->
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown"
+aria-expanded="false">
+Our Services
+</a>
+<ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+<li><a class="dropdown-item" href="portagency.html">Port Agency</a></li>
+<li><a class="dropdown-item" href="cargodocumentation.html">Cargo Documentation</a></li>
+<li><a class="dropdown-item" href="protectiveagency.html">Protective Agency</a></li>
+<li><a class="dropdown-item" href="projectcargo.html">Project Cargo</a></li>
+<li><a class="dropdown-item" href="procurement.html">Procurement</a></li>
+<li><a class="dropdown-item" href="warehousing.html">Warehousing</a></li>
+</ul>
+</li>
+
+<li class="nav-item"><a class="nav-link" href="enquiries.html">Make Enquiries</a></li>
+<li class="nav-item"><a class="nav-link" href="miniblog.html">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="guidlines.html">Guidelines</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section class="about-page">
+<div class="about-text">
+<h1>About Beam Maritime</h1>
+<p>
+At Beam Maritime, we specialize in seamless maritime logistics and port services across Nigeria’s
+coastline. Our team of seasoned professionals ensures that every cargo, vessel, and project receives
+exceptional care and compliance.
+</p>
+
+<div class="about-points">
+<h3>What Sets Us Apart:</h3>
+<ul>
+<li><strong>✔ Full-Service Port Agency</strong> for inbound/outbound vessels.</li>
+<li><strong>✔ Reliable Procurement & Warehousing</strong> solutions tailored to your needs.</li>
+</ul>
+</div>
+
+<div class="about-mission">
+<h3>Our Mission</h3>
+<p>
+To provide dependable, efficient, and compliant maritime services that empower businesses to move
+cargo safely and on time.
+</p>
+</div>
+
+<div class="about-vision">
+<h3>Our Vision</h3>
+<p>
+To be Africa’s most trusted logistics and maritime agency—driven by excellence, innovation, and
+integrity.
+</p>
+</div>
+</div>
+
+<div class="about-image">
+<img
+src="https://media.istockphoto.com/id/1585339706/photo/stern-of-large-cargo-container-ship-import-export-container-box-on-the-ocean-sea-on-blue-sky.jpg?s=612x612&w=0&k=20&c=iYal9DPW5M9n3JytNCWG7Cnwz8rXcK8-5aZzzjF51mo="
+alt="Our Operations" />
+<img
+src="https://media.istockphoto.com/id/1309560086/photo/multiethnic-female-industrial-engineer-with-tablet-and-black-african-american-male-supervisor.jpg?s=612x612&w=0&k=20&c=BdamzG98lH8WooI_apygJb6juHqNWpDtLvc-hLmhzoY="
+alt="Our Team at Work" />
+</div>
+</section>
+<!-- Footer -->
+<footer>
+<p>&copy; 2025 Beam Maritime. All rights reserved.</p>
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </main>
+  );
+}
