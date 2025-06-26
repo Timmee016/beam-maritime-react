@@ -1,0 +1,19 @@
+{
+  "name": "beam-maritime-react",
+  "version": "1.0.0",
+  "description": "React version of Beam Maritime site",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
